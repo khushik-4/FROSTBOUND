@@ -1,23 +1,28 @@
-# React + TypeScript + Vite
+# ❄️ Frostbound
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+*A little frozen world, brought to life with code.*
 
-Currently, two official plugins are available:
+Frostbound is an interactive 3D ice castle experience built with Three.js. Explore a crystalline palace, wander through a snowy landscape, and admire the castle from two different perspectives.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### ✨ Features
+- **Visitor View** — Experience the castle up close.
+- **Diorama View** — Explore the miniature world.
+- **Snow & Aurora** — Toggle the winter effects.
 
-## React Compiler
+### 🛠️ Built With
+React · Three.js · React Three Fiber · TypeScript · Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🚀 Run Locally
 
-## Expanding the Oxlint configuration
+```bash
+git clone https://github.com/khushik-4/FROSTBOUND.git
+cd FROSTBOUND
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+*A small experiment in creative coding, icy architecture, and interactive 3D art.* 💙
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
   "plugins": ["react", "typescript", "oxc"],
   "options": {
     "typeAware": true
